@@ -1,0 +1,21 @@
+//S Balamurali S3C 52 
+//JAVA PGM TO PRINT THE SUM OF FIRST N NATURAL NUMBERS
+import java.util.*;
+public class sumnatural
+{
+     public static void main(String args[])
+     {
+         int sum=0,n;
+         Scanner obj=new Scanner(System.in);
+         System.out.println("enter the limit:");
+         n=obj.nextInt();
+          for(int i=1;i<=n;i++)
+           sum+=i;
+          System.out.println("Sum="+sum); 
+     }
+}
+
+//OUTPUT
+//enter the limit:                                                                                                      
+//10                                                                                                                    
+//Sum=55 

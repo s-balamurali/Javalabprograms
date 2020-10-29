@@ -1,0 +1,19 @@
+//S Balamurali S3C 52 
+//JAVA PGM TO CHECK WHETHER A NO.IS ODD OR EVEN
+
+public class checkoddeven
+{
+     public static void main(String args[])
+     {
+          int n=2;//input number
+          if(n%2==0)
+            System.out.println("The number is even");
+          else
+            System.out.println("The number is odd");
+            
+     }
+}
+ 
+
+//OUTPUT
+//The number is even

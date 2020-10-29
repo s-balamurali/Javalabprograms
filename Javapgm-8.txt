@@ -1,0 +1,27 @@
+//S Balamurali S3C 52
+//factorial of first n numbers
+import java.util.*;
+ public class numfact 
+{
+    public static void main(String args[])
+    {
+        int i,n,fact=1;
+        Scanner obj=new Scanner(System.in);
+        System.out.print("Enter limit:: ");
+        n=obj.nextInt();
+        for(i=1;i<=n;i++)
+        {
+            for(int j=1;j<=i;j++)
+            {
+                fact*=j;
+            }
+            System.out.println("The Factorial of "+i+" is: "+fact);
+            fact=1;
+        }
+    }
+}
+//OUTPUT
+//Enter limit:: 3                                                                                                       
+//The Factorial of 1 is: 1                                                                                              
+//The Factorial of 2 is: 2                                                                                              
+//The Factorial of 3 is: 6

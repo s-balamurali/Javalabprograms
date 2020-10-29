@@ -1,0 +1,14 @@
+//S Balamurali S3C 52 
+//JAVA PGM TO ADD 2 NUMBERS
+
+public class Sum
+{
+     public static void main(String args[])
+     {
+          int a=10,b=20;
+          System.out.println("Sum="+(a+b));
+     }
+}
+
+//OUTPUT
+//Sum=30
